@@ -23,9 +23,9 @@ let palettes = [
     '#f9f871'
   ]
 ];
-
+let myCanvas;
 function setup() {
-  createCanvas(500, 500);
+  myCanvas=createCanvas(500, 500);
   myCanvas.canvas.style.transform = "translate(500px, 100px)";
   
   angleMode(DEGREES);
