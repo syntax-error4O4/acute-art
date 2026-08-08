@@ -26,7 +26,7 @@ let palettes = [
 
 function setup() {
   createCanvas(500, 500);
-  canvas.parent('sketch-canvas');
+  
   angleMode(DEGREES);
   noLoop(); 
   let body=select('body');
